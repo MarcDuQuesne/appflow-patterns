@@ -15,5 +15,5 @@ const sharepoint2s3 = new Sharepoint2S3Stack(app, 'Mysql2S3Stack', {
 
 test('sharepoint2s3 contains an flow ', () => {
   const template = Template.fromStack(sharepoint2s3);
-  expect(template.resourceCountIs('AWS::AppFlow::Flow', 1));
+  expect(template.resourceCountIs('AWS::AppFlow::Flow', 2));
 });
