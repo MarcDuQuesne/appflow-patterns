@@ -13,7 +13,7 @@ export class Sharepoint2S3Stack extends cdk.Stack {
       bucketName: 'my-bucket',
     });
 
-    // this creates a flow from a sharepoint site to an s3 bucket
+    // this creates a scheduled and ondemand flow from a sharepoint site to an s3 bucket
     new Sharepoint2S3Flow(this, 'Sharepoint2S3Flow', {
       site: 'sites/${siteName},${siteID},${webID}',
       entities: ['${site}/_api/v2.0/drive/root:/path/to/folder'],

@@ -65,7 +65,7 @@
     "constructs": "^10.0.5"
   },
   "dependencies": {
-    "@aws-cdk/aws-glue-alpha": "2.121.1-alpha.0",
+    "@aws-cdk/aws-glue-alpha": "^2.121.1-alpha.0",
     "@aws-cdk/aws-redshift-alpha": "^2.121.1-alpha.0",
     "@cdklabs/cdk-appflow": "^0.0.28"
   },
