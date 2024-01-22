@@ -1,6 +1,6 @@
 {
   "name": "appflow-patterns",
-  "description": "L3-level cdk constructs for Appflow",
+  "description": "L3-level cdk constructs for AWS Appflow.",
   "repository": {
     "type": "git",
     "url": "https://github.com/MarcDuQuesne/appflow-patterns"
