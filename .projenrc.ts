@@ -17,7 +17,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
     distName: 'appflow-patterns',
     module: 'appflow_patterns',
   },
-  description: 'L3-level cdk constructs for Appflow',
+  description: 'L3-level cdk constructs for AWS Appflow.',
   devDeps: ['eslint-plugin-cdk', 'cdk-nag'],
   peerDeps: [],
   packageName: 'appflow-patterns',
