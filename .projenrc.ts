@@ -21,6 +21,10 @@ const project = new awscdk.AwsCdkConstructLibrary({
   devDeps: ['eslint-plugin-cdk', 'cdk-nag', 'aws-lambda', 'axios', 'url', '@aws-sdk/client-secrets-manager'],
   peerDeps: [],
   packageName: 'appflow-patterns',
+  gitignore: [
+    '*.js',
+    '*.d.ts',
+  ],
 });
 
 project.eslint?.addPlugins('cdk');
