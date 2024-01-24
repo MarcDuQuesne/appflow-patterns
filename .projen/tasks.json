@@ -275,13 +275,13 @@
       },
       "steps": [
         {
-          "exec": "npx npm-check-updates@16 --upgrade --target=minor --peer --dep=dev,peer,prod,optional --filter=@types/jest,@types/node,@typescript-eslint/eslint-plugin,@typescript-eslint/parser,cdk-nag,eslint-import-resolver-typescript,eslint-plugin-cdk,eslint-plugin-import,eslint,jest,jest-junit,jsii-diff,jsii-docgen,jsii-pacmak,projen,standard-version,ts-jest,ts-node,typescript,aws-cdk-lib,constructs,@aws-cdk/aws-glue-alpha,@aws-cdk/aws-redshift-alpha,@cdklabs/cdk-appflow"
+          "exec": "npx npm-check-updates@16 --upgrade --target=minor --peer --dep=dev,peer,prod,optional --filter=@aws-sdk/client-secrets-manager,@types/jest,@types/node,@typescript-eslint/eslint-plugin,@typescript-eslint/parser,aws-lambda,axios,cdk-nag,eslint-import-resolver-typescript,eslint-plugin-cdk,eslint-plugin-import,eslint,jest,jest-junit,jsii-diff,jsii-docgen,jsii-pacmak,projen,standard-version,ts-jest,ts-node,typescript,url,aws-cdk-lib,constructs,@aws-cdk/aws-glue-alpha,@aws-cdk/aws-redshift-alpha,@cdklabs/cdk-appflow"
         },
         {
           "exec": "yarn install --check-files"
         },
         {
-          "exec": "yarn upgrade @types/jest @types/node @typescript-eslint/eslint-plugin @typescript-eslint/parser cdk-nag eslint-import-resolver-typescript eslint-plugin-cdk eslint-plugin-import eslint jest jest-junit jsii-diff jsii-docgen jsii-pacmak projen standard-version ts-jest ts-node typescript aws-cdk-lib constructs @aws-cdk/aws-glue-alpha @aws-cdk/aws-redshift-alpha @cdklabs/cdk-appflow"
+          "exec": "yarn upgrade @aws-sdk/client-secrets-manager @types/jest @types/node @typescript-eslint/eslint-plugin @typescript-eslint/parser aws-lambda axios cdk-nag eslint-import-resolver-typescript eslint-plugin-cdk eslint-plugin-import eslint jest jest-junit jsii-diff jsii-docgen jsii-pacmak projen standard-version ts-jest ts-node typescript url aws-cdk-lib constructs @aws-cdk/aws-glue-alpha @aws-cdk/aws-redshift-alpha @cdklabs/cdk-appflow"
         },
         {
           "exec": "npx projen"

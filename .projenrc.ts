@@ -18,7 +18,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
     module: 'appflow_patterns',
   },
   description: 'L3-level cdk constructs for AWS Appflow.',
-  devDeps: ['eslint-plugin-cdk', 'cdk-nag'],
+  devDeps: ['eslint-plugin-cdk', 'cdk-nag', 'aws-lambda', 'axios', 'url', '@aws-sdk/client-secrets-manager'],
   peerDeps: [],
   packageName: 'appflow-patterns',
 });
@@ -32,6 +32,7 @@ project.eslint?.addRules({
   'cdk/no-static-import': 'error',
   'cdk/stack-props-struct-name': 'error',
   'cdk/prefer-type-only-imports': 'error',
+  'import/no-extraneous-dependencies': 'off', // deps for lambda rotation are listed as dev dependencies, not project dependencies.
 });
 
 project.synth();
