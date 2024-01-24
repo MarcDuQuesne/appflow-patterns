@@ -119,7 +119,7 @@ const sharepoint2S3FlowProps: Sharepoint2S3FlowProps = { ... }
 | --- | --- | --- |
 | <code><a href="#appflow-patterns.Sharepoint2S3FlowProps.property.bucketName">bucketName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#appflow-patterns.Sharepoint2S3FlowProps.property.entities">entities</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#appflow-patterns.Sharepoint2S3FlowProps.property.profileArn">profileArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#appflow-patterns.Sharepoint2S3FlowProps.property.secretName">secretName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#appflow-patterns.Sharepoint2S3FlowProps.property.site">site</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#appflow-patterns.Sharepoint2S3FlowProps.property.prefix">prefix</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#appflow-patterns.Sharepoint2S3FlowProps.property.scheduleExpression">scheduleExpression</a></code> | <code>string</code> | *No description.* |
@@ -146,10 +146,10 @@ public readonly entities: string[];
 
 ---
 
-##### `profileArn`<sup>Required</sup> <a name="profileArn" id="appflow-patterns.Sharepoint2S3FlowProps.property.profileArn"></a>
+##### `secretName`<sup>Required</sup> <a name="secretName" id="appflow-patterns.Sharepoint2S3FlowProps.property.secretName"></a>
 
 ```typescript
-public readonly profileArn: string;
+public readonly secretName: string;
 ```
 
 - *Type:* string

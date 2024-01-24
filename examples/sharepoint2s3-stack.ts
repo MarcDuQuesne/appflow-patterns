@@ -17,7 +17,7 @@ export class Sharepoint2S3Stack extends cdk.Stack {
     new Sharepoint2S3Flow(this, 'Sharepoint2S3Flow', {
       site: 'sites/${siteName},${siteID},${webID}',
       entities: ['${site}/_api/v2.0/drive/root:/path/to/folder'],
-      profileArn: 'arn:aws:appflow:us-east-1:123456789012:connector-profile/12345678-1234-1234-1234-123456789012',
+      secretName: 'my-secret',
       bucketName: bucket.bucketName,
       scheduleExpression: 'rate(12 hour)',
     });
