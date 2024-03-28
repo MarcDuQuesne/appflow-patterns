@@ -41,7 +41,7 @@
     "@typescript-eslint/eslint-plugin": "^6",
     "@typescript-eslint/parser": "^6",
     "aws-cdk-lib": "2.122.0",
-    "cdk-nag": "^2.28.52",
+    "cdk-nag": "^2.28.74",
     "constructs": "10.0.5",
     "eslint": "^8",
     "eslint-import-resolver-typescript": "^3.6.1",
@@ -50,15 +50,15 @@
     "jest": "^29.7.0",
     "jest-junit": "^15",
     "jsii": "~5.0.0",
-    "jsii-diff": "^1.94.0",
-    "jsii-docgen": "^10.3.19",
-    "jsii-pacmak": "^1.94.0",
+    "jsii-diff": "^1.96.0",
+    "jsii-docgen": "^10.3.25",
+    "jsii-pacmak": "^1.96.0",
     "jsii-rosetta": "~5.0.0",
-    "projen": "^0.80.5",
+    "projen": "^0.80.14",
     "standard-version": "^9",
     "ts-jest": "^29.1.2",
     "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+    "typescript": "^5.4.3"
   },
   "peerDependencies": {
     "aws-cdk-lib": "^2.122.0",
@@ -67,7 +67,7 @@
   "dependencies": {
     "@aws-cdk/aws-glue-alpha": "^2.121.1-alpha.0",
     "@aws-cdk/aws-redshift-alpha": "^2.121.1-alpha.0",
-    "@cdklabs/cdk-appflow": "^0.0.31"
+    "@cdklabs/cdk-appflow": "^0.0.33"
   },
   "keywords": [
     "cdk"
